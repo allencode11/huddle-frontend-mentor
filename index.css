@@ -1,0 +1,82 @@
+@font-face {
+    font-family: poppins;
+    src: url("./Poppins/Poppins-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("./Poppins/Poppins-Medium.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: open-sans-serif;
+    src: url("./Open_Sans/OpenSans-Regular.ttf");
+    font-weight: normal;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: open-sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg");
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 80px 0px 80px;
+}
+
+.logo {
+    justify-content: left;
+    width: 20%;
+    margin-bottom: 60px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text-content {
+    margin: 0px 60px;
+}
+
+.title {
+    color: white;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.plain-text {
+    color: white;
+    margin: 30px 0px;
+}
+
+button {
+    background-color: white;
+    width: 40%;
+    height: 10%;
+    border-radius: 25px;
+    border: none;
+    color: hsl(257, 40%, 49%);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.footer img {
+    margin-left: 20px;
+    margin-top: 15px;
+}
